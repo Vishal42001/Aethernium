@@ -9,6 +9,8 @@ const __dirname = dirname(__filename)
 
 // https://vite.dev/config/
 export default defineConfig({
+    base: '/',
+  publicDir: 'public',
   plugins: [react(), tailwindcss()],
   server: {
     port: 5174,
